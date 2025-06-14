@@ -1,0 +1,64 @@
+aside{
+    width:5vw;
+    height: calc(100vh - 8vh)
+}
+
+#sidebar_container {
+
+    height: 100%;
+    width: 100%;
+}
+
+
+.Student_icon svg,
+.Application_icon svg,
+.Icon_employee svg,
+.Icon_bus svg,
+.Icon_5 svg,
+.Icon_6 svg,
+.Icon_7 svg,
+.Icon_8 svg,
+.Icon_9 svg,
+.Icon_10 svg,
+.Icon_11 svg,
+.Icon_1 svg,
+.Icon_2 svg,
+.Icon_3 svg {
+    width: 15px;
+    height: 15px;
+}
+
+.Student_icon:hover {
+    background: rgba(52, 37, 255, 1);
+    border-radius: 2px;
+
+
+}
+
+.Student_icon:hover svg path {
+    fill: white;
+}
+
+.Application_icon:hover,
+.Icon_employee:hover,
+.Icon_bus:hover,
+.Icon_5:hover,
+.Icon_6:hover,
+.Icon_7:hover,
+.Icon_8:hover,
+.Icon_9:hover,
+.Icon_10:hover,
+.Icon_11:hover {
+    background: rgba(52, 37, 255, 1);
+   
+    border-radius: 2px;
+}
+
+
+.Icon_1:hover,
+.Icon_2:hover,
+.Icon_3:hover {
+    background: rgba(52, 37, 255, 1);
+
+    border-radius: 2px;
+}
